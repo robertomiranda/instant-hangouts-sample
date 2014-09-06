@@ -1,0 +1,27 @@
+GIT
+  remote: https://github.com/guilleiguaran/nancy.git
+  revision: b3d9e74edee49298a17f360a4567d90c63ad0c55
+  specs:
+    nancy (0.4.0)
+      rack
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    daemons (1.1.9)
+    eventmachine (1.0.3)
+    rack (1.5.2)
+    thin (1.6.2)
+      daemons (>= 1.0.9)
+      eventmachine (>= 1.0.0)
+      rack (>= 1.0.0)
+    tilt (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  nancy!
+  rack
+  thin
+  tilt
