@@ -8,4 +8,8 @@ class App < Nancy::Base
   get "/" do
     render("views/index.html")
   end
+
+  get "/:page_name" do
+    render("views/#{params['page_name']}")
+  end
 end
